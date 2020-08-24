@@ -1,14 +1,30 @@
 /************************TAG SELECTORS********************************/
 body {
   margin: 0;
+  align-items: center;
   text-align: center;
   font-family: 'Alata', sans-serif;
+  font-size: 1.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 6.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3, h4, h5, h6 {
   font-family: 'Alata', sans-serif;
   margin: 0;
-  padding: 10px;
+}
+
+p {
+  margin: 0 auto;
+  padding: 10px auto;
 }
 
 hr {
@@ -18,7 +34,7 @@ hr {
   border-width: 5px;
   margin: 0 auto 0 auto;
   width: 5%;
-  overflow: hidden;
+  overflow: visible;
   /*
 
   border-color: grey;
